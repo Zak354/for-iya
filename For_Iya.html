@@ -65,7 +65,7 @@
 <body>
     <div class="container">
         <h1 id="question">Will you be my Valentine?</h1>
-        <img id="catImage" src="Depressed_cat.png" alt="Sad Cat">
+        <img id="catImage" src="images/Depressed_cat.png" alt="Sad Cat">
         <div class="buttons">
             <button id="yesBtn" onclick="sayYes()">Yes</button>
             <button id="noBtn" onclick="sayNo()">No</button>
@@ -74,11 +74,11 @@
 
     <script>
         let noResponses = [
-            { text: "Are you sure?", image: "Sad_cat.png" },
-            { text: "Really?", image: "Why_cat.png" },
-            { text: "But I'll get very sad..", image: "Huh_cat.png" },
-            { text: "Pookie please ):", image: "images (5).jpeg" },
-            { text: "But I love you..", image: "images (6).jpeg" }
+            { text: "Are you sure?", image: "images/Sad_cat.png" },
+            { text: "Really?", image: "images/Why_cat.png" },
+            { text: "But I'll get very sad..", image: "images/Huh_cat.png" },
+            { text: "Pookie please ):", image: "images/images_5.jpeg" },
+            { text: "But I love you..", image: "images/images_6.jpeg" }
         ];
 
         let noCount = 0;
@@ -100,8 +100,8 @@
             document.body.innerHTML = `
                 <div class="container">
                     <h1>Knew you'd say yes bbg :pp</h1>
-                    <img src="Messenger_creation_995961609124770.jpeg" alt="Final Image" width="200">
-                    <img src="Yey_cat.png" alt="Happy Cat" width="150">
+                    <img src="images/Messenger_creation_995961609124770.jpeg" alt="Final Image" width="200">
+                    <img src="images/Yey_cat.png" alt="Happy Cat" width="150">
                 </div>
             `;
         }
